@@ -1,0 +1,109 @@
+:root {
+  --color-primary: #ed1c24;
+  --color-primary-light:#fcee21;
+  --color-primary-dark: #BA265D;
+  --color-grey-light-1: #faf9f9;
+  --color-grey-light-2: #f4f2f2;
+  --color-grey-light-3: #f0eeee;
+  --color-grey-light-4: #ccc;
+  --color-grey-dark-1: rgba(0, 0, 0, 0.63);
+  --color-text:#8b9dc3; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-grey-dark-2);
+  background-image: linear-gradient(to right bottom, var(--color-primary-light) 0%, var(--color-primary) 50%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 87.5vh; }
+
+.navigation {
+  display: flex;
+  padding: 2rem 0rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  align-items: center;
+  letter-spacing: .1rem;
+  border-bottom: 1px solid var(--color-grey-light-4); }
+  .navigation__brand {
+    margin-right: auto;
+    margin-left: .9rem; }
+    .navigation__brand-link {
+      color: var(--color-text);
+      text-decoration: none; }
+  .navigation__menu {
+    list-style: none;
+    display: flex;
+    align-items: center; }
+  .navigation__item {
+    padding: 0 2rem; }
+  .navigation__link {
+    text-decoration: none;
+    color: var(--color-text); }
+
+.btn {
+  border: 1px solid var(--color-primary);
+  padding: .9rem 3.3rem;
+  border-radius: 100px;
+  color: var(--color-primary);
+  background-color: #fff;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  outline: none; }
+
+.heading {
+  height: 73.4vh;
+  margin: 1rem .2rem;
+  padding: 3rem 1.5rem;
+  background-image: url("../img/photo-nic-co-uk-nic-_IL9n-5Ou6c-unsplash.jpg");
+  background-size: cover;
+  background-position: left;
+  color: #fff; }
+  .heading__wrapper {
+    width: 30%; }
+  .heading__content {
+    border-left: 5px solid aquamarine;
+    padding: .2rem 1.5rem;
+    margin: 2.9rem 0; }
+  .heading__primary {
+    color: var(--color-grey-light-1);
+    font-size: 2.6rem;
+    text-transform: capitalize; }
+
+.img__control {
+  width: 50%; }
+
+.exclusive {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 3.5rem 3rem; }
+  .exclusive__side {
+    background-color: yellowgreen;
+    flex: 30rem;
+    margin-right: 10rem; }
+  .exclusive__main {
+    background-color: orangered;
+    flex: 35rem; }
+
+.container {
+  height: 55rem;
+  width: 80%;
+  margin: 4rem auto;
+  background-color: var(--color-grey-light-1);
+  box-shadow: 2rem 2rem 6rem rgba(0, 0, 0, 0.8); }

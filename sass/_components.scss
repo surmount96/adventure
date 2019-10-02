@@ -1,0 +1,99 @@
+.navigation {
+    display:flex;
+    padding: 2rem 0rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    align-items: center;
+    letter-spacing: .1rem;
+    border-bottom: 1px solid var(--color-grey-light-4);
+    
+    &__brand{
+        margin-right: auto;
+        margin-left: .9rem;
+
+        &-link{
+            color:var(--color-text);
+            text-decoration: none;
+        }
+    }
+
+    &__menu{
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    &__item{
+        padding: 0 2rem;
+    }
+
+    &__link{
+        text-decoration: none;
+        color:var(--color-text);
+    }
+}
+
+.btn{
+    border: 1px solid var(--color-primary);
+    padding: .9rem 3.3rem;
+    border-radius:100px;
+    color: var(--color-primary);
+    background-color: #fff;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    -ms-border-radius:100px;
+    -o-border-radius:100px;
+    outline: none;
+}
+.scroll__control{
+    // overflow-y: scroll;
+}
+.heading {
+    height:73.4vh;
+    margin: 1rem .2rem;
+    padding:3rem 1.5rem;
+    background-image: url('../img/photo-nic-co-uk-nic-_IL9n-5Ou6c-unsplash.jpg');
+    background-size: cover;
+    background-position: left;
+    color:#fff;
+
+    &__wrapper{
+        width:30%;
+    }
+    
+    &__content{
+        border-left: 5px solid aquamarine;
+        padding:.2rem 1.5rem;
+        margin:2.9rem 0;
+    }
+
+    &__primary{
+        color:var(--color-grey-light-1);
+        font-size: 2.6rem;
+        text-transform: capitalize;
+    }
+}
+
+
+.img__control{
+    width:50%;
+}
+
+.exclusive{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:3.5rem 3rem;
+    // height:3vh;
+
+    &__side{
+        background-color: yellowgreen;
+        flex:30rem;
+        margin-right: 10rem;
+    }
+
+    &__main{
+        background-color: orangered;
+        flex:35rem;
+    }
+}
